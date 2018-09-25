@@ -69,4 +69,16 @@ Bom, agora na mesma tela do cmd, basta iniciar o server para o projeto ser execu
 ```
 
 
-Agora, abre a página da aplicação em `http://localhost:8080`. E pronto a aplicação será executada de maneira local na sua máquina.        
+Agora, abre a página da aplicação em `http://localhost:8080`. E pronto a aplicação será executada de maneira local na sua máquina.     
+
+## Exercícios & Códigos Realizados durante o Curso: 
+
+Abaixo segue os links dos códigos desenvolvidos durante o curso:
+
+- **S01E02: Hello World**
+    * Código:
+        - [HelloWorld](https://bit.ly/2OO9rkn)
+
+- **S01E03: Uso de Diretivas**
+    * Código:
+        - [Diretivas](https://bit.ly/2xOvkZD)
