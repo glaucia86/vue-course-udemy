@@ -9,9 +9,8 @@ Repositório responsável por demos relacionados ao curso do [Vue.Js - The Compl
 - Node.Js;
 - Vue.Js;
 - Conceitos de vue-router;
-- Conceitos de Criptografia & Autenticação com JWT;
+- Conceitos de Vuex;
 - ES 5/6;
-- Sqlite3;
 
 
 ## Executando Código Localmente: :bulb:
