@@ -1,0 +1,36 @@
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Exercício - Vue.js</title>
+    <script src="../vue.js"></script>
+</head>
+
+<body>
+    <div id="exercicio">
+       <!-- Preencher no atributo 'p' o seu Nome & Idade usando interpolação -->
+       <p>VueJs é muito legal! - {{ nome }} - ({{ idade }})</p>
+
+       <!-- Na saída do atributo 'p' colocar a sua idade multiplicado por 3 -->
+       <p>{{ multiplicarIdade(3) }}</p>
+
+       <!-- Chamar a função de saída com um random float entre 0 e 1 (Math.random()) -->
+       <p>{{numeroRandomico()}}</p>
+
+       <!-- Encontre alguma imagem no Google e que a saída aqui seja feito por binding com o atributo 'src' -->
+       <div>
+           <img style="width:250px;height:500px" v-bind:src="imagem" alt="Glaucia Lemos">
+       </div>
+
+       <!-- Pré popule esse input com o seu nome (set o atrituto 'value') -->
+       <div>
+           <input type="text" v-bind:value="nome">
+       </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
