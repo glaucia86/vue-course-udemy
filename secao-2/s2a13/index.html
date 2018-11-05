@@ -1,0 +1,21 @@
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hello World - Vue.js</title>
+    <script src="../vue.js"></script>
+</head>
+
+<body>
+    <div id="app">
+        <p>{{ cumprimentar() }} - <a v-bind:href="link">Google</a></p>
+        <hr>
+        <p v-html="linkCompleto"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
