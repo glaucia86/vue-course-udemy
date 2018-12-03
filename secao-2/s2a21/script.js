@@ -9,20 +9,6 @@
 new Vue({
     el: '#app',
     data: {
-        contador: 0,
-        x: 0,
-        y: 0
-    },
-    methods: {
-        incrementar: function(pular, event) {
-            this.contador += pular;
-        },
-        atualizarCoordenadas: function(event) {
-            this.x = event.clientX;
-            this.y = event.clientY;
-        },
-        alertaAqui: function() {
-            alert("Oi!");
-        }
+        nome: 'Glaucia'
     }
 });

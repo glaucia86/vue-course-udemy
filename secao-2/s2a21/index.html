@@ -10,13 +10,8 @@
 
 <body>
     <div id="app">
-        <button v-on:click="incrementar(2, $event)">Clique Aqui!!</button>
-        <button v-on:click="contador++">Clique Aqui!!</button>
-        <p>{{contador * 2 > 10 ? 'Maior do que 10' : 'Menor do que 10'}}</p>
-        <p v-on:mousemove="atualizarCoordenadas">Coordenada x: {{ x }} | Coordenada y: {{ y }}
-            - <span v-on:mousemove.stop="">NADA ACONTECE AQUI</span>
-        </p>
-        <input type="text" v-on:keyup.enter.space="alertaAqui">
+        <input type="text" v-model="nome">
+        <p>{{ nome }}</p>
     </div>
 
     <script src="script.js"></script>
