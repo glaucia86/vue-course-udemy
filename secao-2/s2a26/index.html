@@ -5,18 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Hello World - Vue.js</title>
+    <style src="style.css" type="css" scoped></style>
     <script src="../vue.js"></script>
 </head>
 
 <body>
-    <div id="app">       
-        <button v-on:click="contador++">Aumentar</button>
-        <button v-on:click="contador--">Diminuir</button>
-        <button v-on:click="segundoContador++">Aumentar Mais</button>
-        <p>Contador: {{ contador }} | {{ segundoContador }}</p>
-        <p>Resultado: {{ resultado() }} | {{ saida }}</p>
-    </div>
-
+    <div id="app">
+        <div 
+          class="demo" 
+          @click="colorirVermelhor = !colorirVermelhor"
+          :class="divClasses"></div>
+        <div class="demo" :class="{vermelho: colorirVermelhor}"></div>
+        <div class="demo" :class="[cor, {vermelho: colorirVermelhor}]"></div>
+        <hr>
+        <input type="text" v-model="cor">
+      </div>
+      
     <script src="script.js"></script>
 </body>
 
