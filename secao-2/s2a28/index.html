@@ -16,7 +16,7 @@
           @click="colorirVermelhor = !colorirVermelhor"
           :class="divClasses"></div>
         <div class="demo" :class="{vermelho: colorirVermelhor}"></div>
-        <div class="demo" :class="[cor, {vermelho: colorirVermelhor}]"></div>
+        <div class="demo" :class="cor"></div>
         <hr>
         <input type="text" v-model="cor">
       </div>
